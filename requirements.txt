@@ -1,0 +1,10 @@
+Flask==3.0.0
+Werkzeug==3.0.0
+Pillow==10.0.1
+
+# Uncomment and add your AI/ML libraries below:
+# tensorflow
+# torch
+# torchvision
+# opencv-python
+# numpy
