@@ -5,7 +5,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 # Create a temporary folder to store uploaded images
-UPLOAD_FOLDER = 'uploads'
+UPLOAD_FOLDER = "/tmp/uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
